@@ -1,0 +1,30 @@
+### Spec few-shot: negotiation against a competitor quote
+POST http://localhost:8000/api/v1/agent/chat
+Content-Type: application/json
+
+{
+  "message": "We run a 50-person logistics firm in Southeast Asia and are looking for real-time fleet tracking. CompetitorX quoted us $20/vehicle/month. Can you match it?",
+  "customer": {"email": "ops@swiftmove-logistics.sg"}
+}
+
+### Follow-up in the same session (replace with the session_id returned above)
+POST http://localhost:8000/api/v1/agent/chat
+Content-Type: application/json
+
+{
+  "message": "Does it integrate with SAP Business One?",
+  "session_id": "REPLACE_ME"
+}
+
+### Inbound lead webhook (form fill)
+POST http://localhost:8000/api/v1/webhooks/lead
+Content-Type: application/json
+
+{
+  "message": "Interested in compliance training for 400 retail staff across Europe.",
+  "customer": {"domain": "example-retail.eu"},
+  "channel": "web_form"
+}
+
+### CRM record
+GET http://localhost:8000/api/v1/crm/cust-swiftmove

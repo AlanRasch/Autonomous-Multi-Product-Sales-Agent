@@ -1,0 +1,432 @@
+{
+  "persona_pitches": {
+    "fleetpro-iot": {
+      "operations": {
+        "headline": "See every vehicle in real time and stop paying for idle, unsafe and off-route miles.",
+        "outcomes": [
+          "Lower fuel and maintenance cost",
+          "Fewer accidents and insurance claims",
+          "On-time delivery visibility for customers"
+        ],
+        "differentiators": [
+          "Video analytics included, not an add-on",
+          "Regional data hubs for low-latency tracking",
+          "Hardware ships in 5 business days"
+        ]
+      },
+      "executive": {
+        "headline": "Predictable per-vehicle cost with measurable fuel and safety ROI.",
+        "outcomes": [
+          "Payback typically within 6 months from fuel savings",
+          "Single platform replaces tracking + dashcam vendors"
+        ],
+        "differentiators": [
+          "All-inclusive pricing",
+          "ISO 27001 data handling"
+        ]
+      },
+      "objections": {
+        "price": "Compare total cost: competitors often charge separately for video analytics and premium support. Our per-vehicle price includes both.",
+        "competitor": "Ask which features are included at the quoted price and where their servers are hosted; latency and add-ons usually change the comparison.",
+        "complexity": "Plug-and-play units install in under 20 minutes per vehicle, and we provide guided onboarding.",
+        "timing": "Offer a 5-vehicle pilot so value is proven before a full rollout."
+      }
+    },
+    "cloudcrm-suite": {
+      "sales_leader": {
+        "headline": "Forecast with confidence and give reps back hours of admin every week.",
+        "outcomes": [
+          "Higher win rates from AI deal scoring",
+          "Accurate forecasting",
+          "Less manual data entry"
+        ],
+        "differentiators": [
+          "Migration in under 3 weeks",
+          "200+ native integrations"
+        ]
+      },
+      "objections": {
+        "price": "Frame on revenue impact: an 11% win-rate lift typically dwarfs seat cost.",
+        "complexity": "Guided migration with a dedicated specialist; most teams are live within 3 weeks.",
+        "competitor": "Highlight included forecasting and email automation that competitors gate behind enterprise tiers."
+      }
+    },
+    "securevault-backup": {
+      "it_leader": {
+        "headline": "Recover from ransomware in hours, not weeks - and prove it to auditors.",
+        "outcomes": [
+          "Business continuity after a ransomware attack",
+          "Audit-ready compliance evidence",
+          "Less time managing backups"
+        ],
+        "differentiators": [
+          "Immutable, air-gapped copies",
+          "15-minute RPO",
+          "HIPAA and SOC 2 Type II"
+        ]
+      },
+      "objections": {
+        "price": "Compare against the cost of a single day of downtime or a compliance fine.",
+        "complexity": "Agents deploy remotely in minutes and policies are pre-built for common compliance regimes; our team handles setup.",
+        "trust": "Run a restore test during the trial so you see recovery work before you commit."
+      }
+    },
+    "smarthome-hub": {
+      "homeowner": {
+        "headline": "One hub that runs your whole home - even when the internet is down.",
+        "outcomes": [
+          "Lower energy bills",
+          "Peace of mind with home security",
+          "Works with the devices you already own"
+        ],
+        "differentiators": [
+          "Matter and Zigbee support",
+          "Local processing",
+          "2-year warranty"
+        ]
+      },
+      "objections": {
+        "price": "Energy monitoring typically pays back the hub over time through visible savings.",
+        "complexity": "Setup takes about 10 minutes in the app, and it detects compatible devices automatically."
+      }
+    },
+    "solarflex-panels": {
+      "homeowner": {
+        "headline": "Cut your electricity bill with panels built to perform for 25 years.",
+        "outcomes": [
+          "Lower monthly energy bills",
+          "Protection from future rate hikes",
+          "Battery-ready for backup power later"
+        ],
+        "differentiators": [
+          "22.8% efficient cells",
+          "25-year performance warranty",
+          "Financing available"
+        ]
+      },
+      "objections": {
+        "price": "Financing lets monthly payments sit alongside the savings on your bill.",
+        "timing": "Install lead times are currently about 6 weeks, so starting the assessment now locks in your slot.",
+        "trust": "Every system comes with a 25-year performance warranty."
+      }
+    },
+    "edulearn-lms": {
+      "operations": {
+        "headline": "Onboard faster and keep every certification current automatically.",
+        "outcomes": [
+          "Faster new-hire ramp time",
+          "Always audit-ready compliance records",
+          "Less admin for managers"
+        ],
+        "differentiators": [
+          "4,000+ course library",
+          "Mobile-first offline learning",
+          "HRIS integrations"
+        ]
+      },
+      "objections": {
+        "price": "Weigh it against the cost of slower ramp time and missed certifications.",
+        "complexity": "HRIS sync auto-enrolls staff, so admins don't manage users by hand."
+      }
+    }
+  },
+  "competitors": [
+    {
+      "competitor_name": "CompetitorX",
+      "product_category": "Fleet Management",
+      "pricing_model": "Per vehicle per month, video analytics as a paid add-on",
+      "list_price": 20.0,
+      "price_unit": "vehicle/month",
+      "strengths": [
+        "Low headline price",
+        "Established brand in North America"
+      ],
+      "weaknesses": [
+        "No regional server hubs in Southeast Asia (higher latency)",
+        "Video analytics locked behind a $10/vehicle/month add-on"
+      ],
+      "feature_gaps_vs_us": [
+        "AI driver-safety alerts",
+        "Included dashcam video analytics"
+      ],
+      "hidden_costs": [
+        "Video analytics add-on: $10/vehicle/month",
+        "Premium support: $2/vehicle/month"
+      ]
+    },
+    {
+      "competitor_name": "TrackFleet",
+      "product_category": "Fleet Management",
+      "pricing_model": "Hardware purchase + per-vehicle subscription",
+      "list_price": 22.0,
+      "price_unit": "vehicle/month",
+      "strengths": [
+        "Rugged hardware"
+      ],
+      "weaknesses": [
+        "$180 per-unit hardware fee",
+        "36-month lock-in"
+      ],
+      "feature_gaps_vs_us": [
+        "Open API",
+        "Fuel monitoring"
+      ],
+      "hidden_costs": [
+        "Hardware: $180/vehicle upfront"
+      ]
+    },
+    {
+      "competitor_name": "RivalSoft",
+      "product_category": "CRM",
+      "pricing_model": "Per seat per month, tiered editions",
+      "list_price": 45.0,
+      "price_unit": "seat/month",
+      "strengths": [
+        "Large app marketplace"
+      ],
+      "weaknesses": [
+        "Forecasting only in Enterprise edition ($90/seat)",
+        "Long implementations"
+      ],
+      "feature_gaps_vs_us": [
+        "AI deal scoring in base tier"
+      ],
+      "hidden_costs": [
+        "Implementation partner fees",
+        "Enterprise upgrade for forecasting"
+      ]
+    }
+  ],
+  "industries": {
+    "logistics": {
+      "avg_annual_software_spend_usd": 180000,
+      "common_tech_stack": [
+        "TMS",
+        "WMS",
+        "ERP",
+        "Telematics"
+      ],
+      "pain_points": [
+        "Rising fuel costs",
+        "Driver safety and insurance premiums",
+        "Lack of real-time delivery visibility",
+        "Manual dispatch"
+      ],
+      "growth_rate_pct": 6.2,
+      "buying_committee": [
+        "Operations Director",
+        "Fleet Manager",
+        "CFO"
+      ]
+    },
+    "saas": {
+      "avg_annual_software_spend_usd": 420000,
+      "common_tech_stack": [
+        "CRM",
+        "Marketing automation",
+        "Data warehouse"
+      ],
+      "pain_points": [
+        "Forecast accuracy",
+        "Rep productivity",
+        "Tool sprawl"
+      ],
+      "growth_rate_pct": 11.5,
+      "buying_committee": [
+        "VP Sales",
+        "RevOps",
+        "CFO"
+      ]
+    },
+    "healthcare": {
+      "avg_annual_software_spend_usd": 350000,
+      "common_tech_stack": [
+        "EHR",
+        "Microsoft 365",
+        "Backup"
+      ],
+      "pain_points": [
+        "Ransomware risk",
+        "HIPAA compliance",
+        "Staff training burden"
+      ],
+      "growth_rate_pct": 7.8,
+      "buying_committee": [
+        "CIO",
+        "Compliance Officer",
+        "CFO"
+      ]
+    },
+    "retail": {
+      "avg_annual_software_spend_usd": 150000,
+      "common_tech_stack": [
+        "POS",
+        "E-commerce platform",
+        "ERP"
+      ],
+      "pain_points": [
+        "Staff turnover",
+        "Delivery costs",
+        "Inventory visibility"
+      ],
+      "growth_rate_pct": 4.1,
+      "buying_committee": [
+        "COO",
+        "IT Manager"
+      ]
+    },
+    "manufacturing": {
+      "avg_annual_software_spend_usd": 260000,
+      "common_tech_stack": [
+        "ERP",
+        "MES",
+        "PLM"
+      ],
+      "pain_points": [
+        "Downtime",
+        "Compliance training",
+        "Data loss risk"
+      ],
+      "growth_rate_pct": 3.6,
+      "buying_committee": [
+        "Plant Manager",
+        "CIO",
+        "CFO"
+      ]
+    },
+    "consumer": {
+      "avg_annual_software_spend_usd": null,
+      "common_tech_stack": [
+        "Smartphone",
+        "Wi-Fi router"
+      ],
+      "pain_points": [
+        "Rising energy bills",
+        "Home security",
+        "Device compatibility"
+      ],
+      "growth_rate_pct": 9.0,
+      "buying_committee": [
+        "Household decision maker"
+      ]
+    }
+  },
+  "market_news": [
+    {
+      "keywords": [
+        "fleet",
+        "logistics",
+        "telematics",
+        "southeast asia",
+        "tracking"
+      ],
+      "geography": "Southeast Asia",
+      "title": "SE Asia logistics market grows on e-commerce demand",
+      "snippet": "Last-mile delivery volumes in Southeast Asia keep rising, pushing fleet operators toward real-time tracking to meet tighter delivery windows.",
+      "published": "2026-09-02"
+    },
+    {
+      "keywords": [
+        "fleet",
+        "fuel",
+        "logistics"
+      ],
+      "geography": "Global",
+      "title": "Diesel price volatility squeezes fleet margins",
+      "snippet": "Fleet operators cite fuel as their top controllable cost, with telematics-driven idle reduction a leading lever.",
+      "published": "2026-08-18"
+    },
+    {
+      "keywords": [
+        "crm",
+        "sales",
+        "saas"
+      ],
+      "geography": "Global",
+      "title": "Revenue teams consolidate tool stacks",
+      "snippet": "Survey: 62% of sales leaders plan to consolidate CRM and engagement tools in the next 12 months.",
+      "published": "2026-09-10"
+    },
+    {
+      "keywords": [
+        "backup",
+        "ransomware",
+        "healthcare"
+      ],
+      "geography": "Global",
+      "title": "Ransomware incidents against healthcare up year over year",
+      "snippet": "Regulators increase scrutiny of backup immutability and recovery time objectives.",
+      "published": "2026-07-30"
+    },
+    {
+      "keywords": [
+        "solar",
+        "energy",
+        "home"
+      ],
+      "geography": "North America",
+      "title": "Residential solar demand rises with utility rate hikes",
+      "snippet": "Homeowners cite bill savings and new tax incentives as primary motivators.",
+      "published": "2026-09-21"
+    },
+    {
+      "keywords": [
+        "smart home",
+        "energy",
+        "matter"
+      ],
+      "geography": "Global",
+      "title": "Matter adoption accelerates smart home interoperability",
+      "snippet": "Consumers increasingly prefer hubs that work across brands and offline.",
+      "published": "2026-08-05"
+    }
+  ],
+  "segments": {
+    "default": {
+      "purchasing_power_index": 1.0,
+      "spending_trends": [
+        "Value-conscious purchasing",
+        "Growing preference for subscriptions"
+      ],
+      "cultural_preferences": [
+        "Trusted reviews and referrals"
+      ]
+    },
+    "north america": {
+      "purchasing_power_index": 1.25,
+      "spending_trends": [
+        "High adoption of smart home devices",
+        "Interest in energy independence"
+      ],
+      "cultural_preferences": [
+        "Self-service research before purchase",
+        "Financing options"
+      ]
+    },
+    "southeast asia": {
+      "purchasing_power_index": 0.75,
+      "spending_trends": [
+        "Mobile-first purchasing",
+        "Rapid SME digitization"
+      ],
+      "cultural_preferences": [
+        "Relationship-driven buying",
+        "Local support and data residency"
+      ]
+    },
+    "europe": {
+      "purchasing_power_index": 1.1,
+      "spending_trends": [
+        "Sustainability-driven purchases"
+      ],
+      "cultural_preferences": [
+        "Strong privacy expectations (GDPR)"
+      ]
+    }
+  },
+  "discount_codes": {
+    "LAUNCH10": 10,
+    "PARTNER15": 15,
+    "LOYALTY5": 5
+  }
+}

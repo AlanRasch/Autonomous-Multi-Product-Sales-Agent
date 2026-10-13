@@ -1,0 +1,43 @@
+[
+  {
+    "domain": "swiftmove-logistics.sg",
+    "company_name": "SwiftMove Logistics",
+    "industry": "logistics",
+    "employee_count": 50,
+    "region": "Southeast Asia",
+    "tech_stack": ["SAP Business One", "Google Workspace", "Legacy GPS trackers"],
+    "funding_stage": "Bootstrapped",
+    "decision_makers": [
+      {"name": "Mei Lin Tan", "title": "Operations Director", "role_in_deal": "economic_buyer"},
+      {"name": "Arjun Rao", "title": "Fleet Manager", "role_in_deal": "champion"}
+    ],
+    "customer_id": "cust-swiftmove"
+  },
+  {
+    "domain": "brightpath.io",
+    "company_name": "BrightPath Software",
+    "industry": "saas",
+    "employee_count": 140,
+    "region": "North America",
+    "tech_stack": ["Spreadsheets", "Gmail", "Slack"],
+    "funding_stage": "Series B",
+    "decision_makers": [
+      {"name": "Dana Whitfield", "title": "VP Sales", "role_in_deal": "economic_buyer"},
+      {"name": "Sam Ortiz", "title": "RevOps Manager", "role_in_deal": "champion"}
+    ],
+    "customer_id": "cust-brightpath"
+  },
+  {
+    "domain": "northside-clinic.org",
+    "company_name": "Northside Clinic Group",
+    "industry": "healthcare",
+    "employee_count": 320,
+    "region": "Europe",
+    "tech_stack": ["Microsoft 365", "Epic"],
+    "funding_stage": "Non-profit",
+    "decision_makers": [
+      {"name": "Priya Shah", "title": "CIO", "role_in_deal": "economic_buyer"}
+    ],
+    "customer_id": "cust-northside"
+  }
+]
